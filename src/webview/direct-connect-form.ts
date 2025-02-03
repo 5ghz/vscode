@@ -255,4 +255,4 @@ export type FormConnectionType =
   | "Confluent Platform"
   | "Other";
 
-type SupportedAuthTypes = "None" | "Basic" | "API";
+type SupportedAuthTypes = "None" | "Basic" | "SSL" | "API";
